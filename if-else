@@ -1,0 +1,10 @@
+function largest(a,b){
+  if (a > b){
+    return a
+  }
+    else{
+      return b;
+    }
+}
+var largest1 = largest(1,4);
+document.write(largest1);
